@@ -64,8 +64,6 @@ document.querySelector('.btn-hold').addEventListener('click' , function() {
       }
    }
 });
-   
-   
 
    document.querySelector('.btn-new').addEventListener('click' , init);
 
@@ -89,7 +87,7 @@ activePlayer = 0;
 gamePlaying = true;
 
 document.querySelector('.dice').style.display = 'none';
-
+   
  document.getElementById('score-0').textContent = '0';
  document.getElementById('current-0').textContent = '0';
  document.getElementById('score-1').textContent = '0';
